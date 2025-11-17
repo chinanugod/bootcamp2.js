@@ -69,3 +69,4 @@ while (a < thisArray.length) {
 }
 
 console.log(result); // [1, 2, 3, "Hello"]
+console.log("Kennedy Chukwu(Veltrix instructor): Nice:)
