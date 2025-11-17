@@ -11,6 +11,7 @@ let fullName = "Nwaohangwa Chinanu Godwin";
 console.log("Length of full name:", fullName.length);
 console.log("First character:", fullName.charAt(0));
 console.log("Last character:", fullName.charAt(fullName.length - 1));
+console.log("Kennedy Chukwu(Veltrix instructor): nice")
 
 // Method 2
 /* 
@@ -28,9 +29,7 @@ let programText = "My Name On Veltrix";
 
 console.log(programText.toUpperCase());
 console.log(programText.toLowerCase());
-
-
-
+console.log("Kennedy Chukwu(Veltrix instructor): nice")
 
 // Intermediate (Test)
 // 1.  Given the string: let text = "JavaScript is awesome!";
@@ -52,6 +51,7 @@ console.log("Replaced text:", replacedText);
 // Let's check if the string includes "Script"
 let hasScript = text.includes("Script");
 console.log("Includes 'Script'? :", hasScript); // returns boolean value
+console.log("Kennedy Chukwu(Veltrix instructor): nice")
 
 
 // 3.  Split this string into an array of words: "Learn JavaScript step by step"
@@ -66,6 +66,7 @@ let wordsArray = sentence.split(" "); // ["Learn", "JavaScript", "step", "by", "
 let upperCaseSentence = wordsArray.map(word => word.toUpperCase()).join(" ");
 
 console.log(upperCaseSentence);
+console.log("Kennedy Chukwu(Veltrix instructor): nice")
 
 // // OR
 // // Loop through the array and log each word in uppercase
@@ -92,4 +93,7 @@ for (let i = 0; i < textSpace.length; i++) {
     if (textSpace[i].toLowerCase() === "a") count++;
 }
 console.log(count);
+
+console.log("Kennedy Chukwu(Veltrix instructor): nice, hope you understood all logic you used. Quite impressive, though I sense AI behind the scene....🫡🫡")
+
 
