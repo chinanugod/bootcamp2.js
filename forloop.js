@@ -53,3 +53,4 @@ for (let i = original.length - 1; i >= 0; i--) {
 }
 
 console.log(reversed);
+console.log("Kennedy Chukwu(Veltrix instructor): Nice code")
