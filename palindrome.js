@@ -6,6 +6,7 @@ function palindrome(str) {
 
 console.log(palindrome("antena")); // False
 console.log(palindrome("demed")); // True
+console.log(palindrome('madmadam')); // False
 
 
 
@@ -19,7 +20,7 @@ function palichecker(isString) {
 console.log(palichecker("namaman"));
 console.log(palichecker("dood"));
 console.log(palichecker("dewed"));
-console.log(palichecker('no lemon, no melon'));
+console.log(palichecker('Do geese see God?'));
 
 
 // This function checks if a string is a palindrome after 
@@ -39,64 +40,62 @@ console.log(isAdvancedPalindrome('noon')); // True
 console.log(isAdvancedPalindrome('dewed')); // True
 console.log(isAdvancedPalindrome('dood')); // True
 console.log(isAdvancedPalindrome('eliminates')); //
-console.log(isAdvancedPalindrome('A man, a plan, a canal: Panama'));  // Output: true
-console.log(isAdvancedPalindrome('No lemon, no melon'));             // Output: true
-
-
-// // THIS PART REQUIRES TAKING INPUT FROM USER END
-
-// // Using Loop
-
-// // program to check if the string is palindrome or not
-
-// function checkPal(string) {
-//     // convert string to an array
-//     const arrayValues = string.split(''); 
-//     // reverse the array values
-//     const reverseArrayValues = arrayValues.reverse();
-//     // convert array to string
-//     const reverseString = reverseArrayValues.join('');
-
-//     if(string == reverseString) {
-//         console.log('It is a palindrome');
-//     }
-//     else {
-//         console.log('It is not a palindrome');
-//     }
-// }
-
-// //take input
-// const string = prompt('Enter a string: ');
-
-// checkPal(string);
-
-// // Another example
-
-// // program to check if the string is palindrome or not
-
-// function checkPalindrome(stringent) {
-
-//     // find the length of a string
-//     const len = stringent.length;
-
-//     // loop through half of the string
-//     for (let i = 0; i < len / 2; i++) {
-
-//         // check if first and last string are same
-//         if (stringent[i] !== stringent[len - 1 - i]) {
-//             return 'It is not a palindrome';
-//         }
-//     }
-//     return 'It is a palindrome';
-// }
-
-// // take input
-// const stringent = prompt('Enter a string: ');
-
-// // call the function
-// const value = checkPalindrome(stringent);
-
-// console.log(value);
+console.log(isAdvancedPalindrome('Never odd or even'));  // Output: true
+console.log(isAdvancedPalindrome("Madam, in Eden, I'm Adam")) // Output: true
 
 
 
+// USING LOOP
+ 
+// program to check if the string is palindrome or not
+
+function checkPalindrome(stringent) {
+
+    // find the length of a string
+    const len = stringent.length;
+
+    // loop through half of the string
+    for (let i = 0; i < len / 2; i++) {
+
+// // check if first and last string are same
+
+// // this first [i] being the array- string itself is the forward-moving pointer;
+// // the -i as the backward moving pointer is just saying
+// // to the loop to move at the same pace as the i part of the array;
+// // SO: as i increases, -i decreases. chikina.
+        if (stringent[i] !== stringent[len - 1 - i]) {
+            return 'It is not a palindrome';
+        } // NB: -1 discount/loops-out the first(from the end) index of the array
+    }
+    return 'It is a palindrome';
+}
+
+// take input
+const stringent = "Don't nod";
+
+// call the function
+const value = checkPalindrome(stringent);
+
+console.log(value);
+
+
+// ANOTHER PRACTICE EXAMPLE
+
+function palindromer(comment) {
+    const halflength = comment.length;
+
+    for (let i = 0; i < halflength/2; i++)
+            if(comment[i] !== comment[halflength - 1 - i])
+        {
+        return "Check is negative"
+    }
+     else {
+        return "Check is positive"
+    }
+}  
+
+const comment = "reviver";
+
+const newValue = comment;
+
+console.log(palindromer(newValue))
