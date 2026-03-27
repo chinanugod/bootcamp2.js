@@ -15,6 +15,8 @@ isNumber(3);
 isNumber(-3)
 isNumber(0);
 
+console.log("From Kennedy Chukwu(Veltrix Instructor): Your logic is great. The code you wrote is fine and works, but it didnt follow instructions.\nThis session was to be written with only if_else (control flow) and not with a function")
+
 // Write a program that checks whether a user’s age is 18 or older and prints “Access Granted” or “Access Denied”.
 
 function grantAccess() {
@@ -29,6 +31,7 @@ function grantAccess() {
 
 grantAccess(17);
 
+console.log("From Kennedy Chukwu(Veltrix Instructor): Your logic is great. The code you wrote is fine and works, but it didnt follow instructions.\nThis session was to be written with only if_else (control flow) and not with a function")
 
 // INTERMEDIATE (Test)
 /*
@@ -55,6 +58,7 @@ if (score >= 80) {
   grade = "F";
 }
 console.log("Grade: " + grade); 
+console.log("From Kennedy Chukwu(Veltrix Instructor): Your logic is great. The code you wrote is fine and works, Like the just one console.log(). Hope you didnt use AI")
 
 /*
 3.  Ask the user for a number. If it’s:
@@ -78,6 +82,7 @@ function checkEvenOdd(num) {
 checkEvenOdd(23);
 checkEvenOdd("3MTT");
 checkEvenOdd(4); 
+console.log("From Kennedy Chukwu(Veltrix Instructor): Your logic is great. The code you wrote is fine and works, but it didn't follow instructions.\nThis session was to be written with only if_else (control flow) and not with a function")
 
 // ADVANCE
 // 1.  Given three numbers, write logic to determine and print the largest.
@@ -101,6 +106,8 @@ function threeNumbers(num1, num2, num3) {
 
 const result = threeNumbers(5, 34, 6);
 console.log("The largest number is:", result);
+console.log("From Kennedy Chukwu(Veltrix Instructor): Your logic is great. The code you wrote is fine and works, but it didn't follow instructions.\nThis session was to be written with only if_else (control flow) and not with a function")
+
 
 /* 2.  Write a program that checks if a password is strong:
 Must be at least 8 characters
