@@ -30,6 +30,8 @@ switch(day) {
         console.log("Invalid day number");
 }
 
+console.log("Nice")
+
 // INTERMEDIATE
 /* 
 Intermediate (Test)
@@ -58,6 +60,8 @@ switch(trafficLight) {
         console.log("Invalid traffic light color");
 }
 
+console.log("Nice")
+
 // ADVANCE
 /*
 1.  Write a switch program that takes a fruit name and prints its price:
@@ -83,3 +87,5 @@ switch(fruit) {
     default:
         console.log("Fruit not available");
 }
+
+console.log("Nice")
