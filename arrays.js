@@ -19,7 +19,7 @@ console.log(colorList);
 // 3.  Remove the first color using shift().
 colorList.shift(); // colorList.shift([0]) still works.
 console.log(colorList);
-
+console.log("Kennedy Chukwu(Veltrix instructor): Nice code")
 
 
 // Intermediate (Test)
@@ -35,6 +35,7 @@ let nums = [4, 8, 2, 15, 23, 7];
 // 1. Sort the array in ascending order (without modifying original)
 let sortedNums = nums.slice().sort((a, b) => a - b);
 console.log(sortedNums);
+console.log("Kennedy Chukwu(Veltrix instructor): Nice code")
 
 // NOTE
 /* 
@@ -64,6 +65,7 @@ for (let i = 0; i < nums.length; i++) {
     doubledNums.push(nums[i] * 2);
 }
 console.log(doubledNums);
+console.log("Kennedy Chukwu(Veltrix instructor): Nice code")
 
 
 // 3.  Combine these arrays into one:
@@ -75,6 +77,7 @@ let arrayB = ["C", "D"];
 // Combine arrays into one
 let combinedArray = arrayA.concat(arrayB);
 console.log("Combined array:", combinedArray);
+console.log("Kennedy Chukwu(Veltrix instructor): Nice code")
 
 
 // Advanced (Challenge accepted)
@@ -89,4 +92,5 @@ for (let i = 0; i < numsArray.length; i++) {
     }
 }
 
+console.log("Kennedy Chukwu(Veltrix instructor): Nice code")
 console.log(count); // 3
